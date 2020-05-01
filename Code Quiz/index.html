@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <div class="trackers">
+        <h2 id="view-scores">View Highscores: <span class="score"></span></h2>
+        <h2 id="time">Time: <span class="timer"></span></h2>
+    </div>
+
+    <div class="banner">
+        <h2 id="quiz-title">Cartoon Trivia Game</h2>
+        <p>Description Goes Here</p>
+    </div>
+    <div class="quest-ban1">
+        <h3 id="Question1">Which 90s Cartoon was centered on a never ending chase battle between a housecat and a brown mouse?</h3>
+        <ul>
+            <p>Animaniacs</p> 
+            <p data-correct="true">Tom & Jerry</p> <!-- Correct Answer -->
+            <p>Animaniacs</p> 
+            <p>Mickey Mouse</p> 
+            <!-- <li>Speedy Gonzales</li>
+            <li>Tom & Jerry</li>
+            <li>Animaniacs</li>
+            <li>Mickey Mouse</li> -->
+        </ul>
+    </div>
+    <div class="quest-ban2">
+        <h3 id="Question2">What were the names of the twins from Rugrats?</h3>
+            <ul>
+                <p data-correct="true">Phil and Lil</p> <!-- Correct Answer -->
+                <p>Hal and Sal</p>
+                <p>Ann and Dan</p>
+                <p>Harry and Marry</p>
+            </ul> 
+    </div>
+    <div class="quest-ban3">
+        <h3 id="Question3">In Dexter's Laboratory What Was The Name Of Dexter's Rival?</h3>
+            <ul>
+                <p>Marko</p>
+                <p data-correct="true">Mandark</p>  <!-- Correct Answer -->
+                <p>Morton</p>
+                <p>Michael</p>
+            </ul> 
+    </div>
+    <div class="quest-ban4">
+        <h3 id="Question4">What Did School Bully Helga Often Shout At Arnold In Hey Arnold?</h3>
+            <ul>
+                <p data-correct="true">Football Head!</p> <!-- Correct Answer-->
+                <p>Arnie</p> 
+                <p>Crazy Eyes</p> 
+                <p>Loser!</p> 
+            </ul>
+    </div>
+    <div class="quest-ban5">
+        <h3 id="Question5">What Were The Names Of The Parents In The Wild Thornberry's?</h3>
+            <ul>
+                <p>Roland & Marianne</p> 
+                <p>Roland & Rita</p> 
+                <p>Nigel & Rita</p> 
+                <p data-correct="true">Nigel & Marianne</p> <!-- Correct Answer-->
+            </ul>
+    </div>
+    <div class="quest-ban6">
+        <h3 id="Question6">In Ed, Edd & Eddy, Jonny (Melonhead) Has An Imaginary Friend Called What?</h3>
+            <ul>
+                <p data-correct="true">Plank</p> <!-- Correct Answer -->
+                <p>Edward</p> 
+                <p>Rolf</p> 
+                <p>Woody</p> 
+            </ul> 
+    </div>
+    <div class="quest-ban7">
+        <h3 id="Question7">In Pinky And The Brain The Main Antagonist Is A Hamster, But What Is Its Name?</h3> 
+            <ul>
+                <p>Cotton</p>
+                <p>Billy</p>
+                <p>Minton</p>
+                <p data-correct="true">Snowball</p> <!-- Correct Answer-->
+            </ul>
+    </div>
+    <div class="quest-ban8">
+        <h3 id="Question8">What Were Bubbles Powers In The Powerpuff Girls?</h3> 
+            <ul>
+                <p>She could talk to animals, emit supersonic waves and read any language</p> <!-- Correct Answer-->
+                <p data-correct="true">She could breathe ice and had x-ray vision</p>
+                <p>She did not have any</p>
+                <p>She could turn herself invisible and had super speed</p>
+            </ul>
+    </div>
+    <div class="quest-ban9">
+        <h3 id="Question9">In Arthur, what does the main character's little sister's initials (D.W.) stand for?</h3> 
+            <ul>
+                <p>Daisy Water</p>
+                <p>Dorothy Whitny</p>
+                <p data-correct="true">Dora Winifred</p> <!-- Correct Answer -->
+                <p>Dwayne Wade</p>
+            </ul>
+    </div>
+    <div class="quest-ban10">
+        <h3 id="Question10">What occupation do Courage the Cowardly dogs owners hold?</h3> 
+            <ul>
+                <p data-correct="true">Farmers</p>
+                <p>Buisness</p>
+                <p>Serial Killers</p>
+                <p>Cooks</p>
+            </ul>
+    </div>
+    <div class="end-quiz">
+        <p>Enter Intials: </p>
+        <input class="initals" type="text">
+        <button class="submit-initials">Submit</button>
+        <p id="score-result"></p>
+        <p id="view-score"></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="java.js"></script>
+</body>
+</html>

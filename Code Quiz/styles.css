@@ -1,0 +1,179 @@
+h3 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#view-scores {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+#time {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: fixed;
+    right: 2.5%;
+    float: right;    
+}
+
+.banner {
+    visibility: hidden;
+    position: fixed;
+    float: left; 
+    top: 50%; 
+    left: 50%; 
+    margin-top: -250px; 
+    margin-left: -170px;
+}
+
+#quiz-title {
+    font-size: 35px;
+}
+
+.quest-ban1 {
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;
+}
+
+.quest-ban2 {
+    visibility: hidden;
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;
+}
+
+.quest-ban3 {
+    visibility: hidden;
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;
+}
+
+.quest-ban4 {
+    visibility: hidden;
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;
+}
+
+.quest-ban5 {
+    visibility: hidden;
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;
+}
+
+.quest-ban6 {
+    visibility: hidden;
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;
+}
+
+.quest-ban7 {
+    visibility: hidden;
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;
+}
+
+.quest-ban8 {
+    visibility: hidden;
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;
+}
+
+.quest-ban9 {
+    visibility: hidden;
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;
+}
+
+.quest-ban10 {
+    visibility: hidden;
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;
+}
+
+.end-quiz {
+    visibility: hidden;
+    width: 450px;
+    height: 300px;
+    line-height: 1.5;
+    position: fixed;
+    float: left;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: -200px; 
+    margin-left: -200px;    
+}
+
